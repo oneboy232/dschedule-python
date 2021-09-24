@@ -1,0 +1,47 @@
+CHANGES
+=======
+
+* fix crontab
+* fix cron parser
+* add job\_server
+* execute times up first
+* start thread in background
+* add job logging
+* fix cron bug
+* change example servers
+* use logging
+* add load function
+* use hostname replace ip
+* use hostname replace ip
+* use ip replace hostname
+* fix print
+* 0.1->0.2
+* remove logging
+* update topology
+* use print instead of logging
+* set thread daemon
+* remove logging
+* remove logging
+* add change log
+* add http info
+* fix topology
+* fault tolerance for network
+* fix inner class
+* fix
+* fix tcp server
+* add topology
+* delete print()
+* fix len bug
+* fix
+* topology
+* topology update
+* fix setup tools
+* add topology server
+* add callback execute
+* update cron
+* update wait time
+* add structure
+* add cron.py
+* job info add job function object
+* init
+* init
