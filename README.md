@@ -1,9 +1,5 @@
 # Python 定时任务
 
-## 定时任务查看客户端
-
-http://l-pyscheduler.ops.cn5:8083
-
 
 ## 用法
 
@@ -16,7 +12,7 @@ logging.basicConfig(level=logging.NOTSET)
 def callback(data):
     print(data)
 
-servers = ['wang','qunar-opsdev-wb-archlinux']
+servers = ['wang','test'] // wang 和 test为主机名
 s = Scheduler(servers=servers, port=12345, pid_file='/tmp/py-scheduler.pid', callback_func=callback)
 
 
@@ -44,4 +40,3 @@ http://localhost:12345/job/stop?job_id=xxxx
 #### 手动执行任务
 
 http://localhost:12345/job/manual_do?job_id=xxxx
-
